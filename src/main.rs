@@ -1,5 +1,3 @@
-// use exercicios::mdc_01;
-
 use exercicios::mdc_01;
 
 mod aula01;
@@ -8,6 +6,7 @@ mod aula03;
 mod aula04;
 mod aula05;
 mod aula06;
+mod aula07;
 mod exercicios {
     pub mod mdc_01;
 }
@@ -32,5 +31,7 @@ fn main() {
     aula04::soma_algarismos();
     aula05::fatorial();
     aula06::alunos_em_recuperacao();
+    aula07::functions();
+
     mdc_01::calculo_mdc();
 }
